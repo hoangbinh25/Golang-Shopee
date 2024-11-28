@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/web/assets/css/base.css">
+    <link rel="stylesheet" href="/web/assets/css/common.css">
+    <title>Đăng kí tài khoản</title>
+</head>
+<body>
+    <div class="register">
+        <div class="container">
+            <nav class="navbar">
+                <a class="navbar d-flex" href="/web/home.html">
+                    <img src="/web/assets/img/logo_Login.svg" alt="" width="120" height="60" class="d-inline-block align-text-top">
+                    <h3 class="title">Đăng kí</h3>
+                </a>
+            </nav>
+        </div>
+        <div class="banner">
+            <div class="container-sm d-flex form">
+                <img src="/web/assets/img/img_Login.png" alt=""class="rounded mx-auto d-block">
+                <form action="/sigup" class="form_login">
+                    <div class="title text-dark fs-5 py-2">Đăng kí</div>
+                        <div>
+                            <input type="text" name="email" id="" placeholder="Email" oninvalid="this.setCustomValidity('Bạn chưa nhập email')" oninput="this.setCustomValidity('')" required class="d-block my-2 p-1 w-100">
+                            <input type="text" name="username" id="username" placeholder="Tên đăng nhập" oninvalid="this.setCustomValidity('Bạn chưa nhập tên đăng nhập')"  oninput="this.setCustomValidity('')" required class="d-block mt-4 p-1 w-100">
+                            <input type="text" name="password" id="password" placeholder="Mật khẩu" oninvalid="this.setCustomValidity('Bạn chưa nhập mật khẩu')"  oninput="this.setCustomValidity('')" required class="my-4 p-1 w-100">
+                            <button type="submit" class="d-block mt-2 w-100 btn-login py-2">ĐĂNG KÍ</button>
+                        </div>
+                    <div>
+                        <div class="text-dark policy my-2">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về <a class="disc" href="">Điều khoản dịch vụ</a> & <a class="disc" href="">Chính sách bảo mật</a> 
+                        </div>
+                    <div>
+                        <p class="text-secondary pt-2 d-flex justify-content-center">Bạn đã có tài khoản? <a class="text-decoration-none disc" href="/web/templates/login.html">Đăng nhập</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <!-- Footer -->
+        <footer class="bg-light">
+            <div class="container ">
+                <div class="footer my-4">
+                <div class="row">
+                    <!-- Customer care -->
+                    <div class="col">
+                    <div class="title-footer mb-2 mt-5">CHĂM SÓC KHÁCH HÀNG</div>
+                    <ul class="list-footer p-0 ">
+                        <a href="#">
+                        <li class="py-1">Trung Tâm Trợ Giúp</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Shopee Blog</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Shopee Mall</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Hướng Dẫn Mua Hàng</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Hướng Dẫn Bán Hàng</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Thanh Toán</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Shopee Xu</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Vận Chuyển</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Trả Hàng & Hoàn Tiền</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Chăm Sóc Khách Hàng</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-1">Chính Sách Bảo Hành</li>
+                        </a>
+                    </ul>
+                    </div>
+                    <!-- End customer -->
+                    <!-- Shopee -->
+                    <div class="col">
+                    <div class="title-footer mb-2 mt-5">VỀ SHOPEE</div>
+                    <ul class="list-footer p-0">
+                        <a href="#">
+                        <li class="py-2">Giới Thiệu Về Shopee Việt Nam</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Tuyển Dụng</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Điều Khoản Shopee</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Chính Sách Bảo Mật</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Chính Hãng</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Kênh Người Bán</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Flash Sales</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Chương Trình Tiếp Thị Liên Kết Shopee</li>
+                        </a>
+                        <a href="#">
+                        <li class="py-2">Liên Hệ Với Truyền Thông</li>
+                        </a>
+                    </ul>
+                    </div>
+                    <!-- End  -->
+                    <!-- Pay -->
+                    <div class="col">
+                    <div class="title-footer mb-2 mt-5">THANH TOÁN</div>
+                    <ul class="d-flex flex-wrap p-0">
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-1.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-2.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-3.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-4.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-5.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-6.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-7.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/payment-8.png" alt="">
+                        </li>
+                    </ul>
+                    <div class="mb-2 mt-5">Đơn Vị Vận Chuyển</div>
+                    <ul class="d-flex flex-wrap p-0">
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli1.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli2.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli3.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli4.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli5.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli6.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli7.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli8.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli9.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli10.png" alt="">
+                        </li>
+                        <li class="py-2 mx-2">
+                        <img src="/web/assets/img/Common/deli11.png" alt="">
+                        </li>
+                    </ul>
+                    </div>
+                    <!-- End Pay -->
+                    <!-- Follow  -->
+                    <div class="col">
+                    <div class="title-footer mb-2 mt-5">THEO DÕI CHÚNG TÔI TRÊN</div>
+                    <ul class="p-0">
+                        <li class="my-2">
+                        <a href="https://www.facebook.com/ShopeeVN">
+                            <img src="/web/assets/img/Common/img-contact-footer.png" alt="">
+                            <span class="contact-footer">Facebook</span>
+                        </a>
+                        </li>
+                        <li class="my-2">
+                        <a href="https://www.instagram.com/Shopee_VN">
+                            <img src="/web/assets/img/Common/img-contact-footer2.png" alt="">
+                            <span class="contact-footer">Instagram</span>
+                        </a>
+                        </li>
+                        <li class="my-2">
+                        <a href="https://www.linkedin.com/company/shopee/">
+                            <img src="/web/assets/img/Common/img-contact-footer3.png" alt="">
+                            <span class="contact-footer">LinkedIn</span>
+                        </a>
+                        </li>
+                    </ul>
+                    </div>
+                    <!-- End Follow -->
+                    <!-- Install app -->
+                    <div class="col">
+                    <div class="title-footer mb-2 mt-5">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</div>
+                    <div class="d-flex">
+                        <a href="https://shopee.vn/web" class="shadow-sm bg-body">
+                        <img src="/web/assets/img/Common/qr-footer.png" alt="">
+                        </a>
+                        <div>
+                        <a href="https://shopee.vn/web" class="d-block shadow-sm bg-body rounded my-1 mx-3 px-2">
+                            <img src="/web/assets/img/Common/app_store-footer.png" alt="">
+                        </a>
+                        <a href="https://shopee.vn/web" class="d-block shadow-sm bg-body rounded my-1 mx-3 px-2">
+                            <img src="/web/assets/img/Common/google_play-footer.png" alt="">
+                        </a>
+                        <a href="https://shopee.vn/web" class="d-block shadow-sm bg-body rounded my-1 mx-3 px-2">
+                            <img src="/web/assets/img/Common/app-gallery_footer.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- End Install app -->
+                </div>
+                </div>
+            </div>
+        </footer>
+            <!-- End Footer -->
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
